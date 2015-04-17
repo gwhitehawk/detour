@@ -1,0 +1,489 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "f6U7SObKiwQ0bf8fK0LxDt",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "JFK",
+     "city": "NYC",
+     "name": "New York John F Kennedy International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "OSL",
+     "city": "OSL",
+     "name": "Oslo Gardermoen"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "PRG",
+     "city": "PRG",
+     "name": "Prague Ruzyne"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "WAW",
+     "city": "WAW",
+     "name": "Warsaw Frederic Chopin"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "NYC",
+     "name": "New York"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "OSL",
+     "name": "Oslo"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "PRG",
+     "name": "Prague"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "WAW",
+     "name": "Warsaw"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "73H",
+     "name": "Boeing 737"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "788",
+     "name": "Boeing 787"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "E70",
+     "name": "Embraer RJ-170"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XF",
+     "name": "US Passenger Facility Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "US_002",
+     "name": "US International Departure Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YQ_F",
+     "name": "DY YQ surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "AY_001",
+     "name": "US September 11th Security Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XW_001",
+     "name": "Poland XW"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "ZN_001",
+     "name": "Norway Passenger Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "ND",
+     "name": "Poland Passenger Service Charge"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "DY",
+     "name": "Norwegian Air Shuttle A.S."
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "LO",
+     "name": "LOT - Polish Airlines"
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD663.70",
+    "id": "QxtjlWJwmwDVJtJyFjCQiR001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 890,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 435,
+        "flight": {
+         "carrier": "DY",
+         "number": "7002"
+        },
+        "id": "GDkMR-wO2jFce5+c",
+        "cabin": "COACH",
+        "bookingCode": "U",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L23f3H-3uPsArTFj",
+          "aircraft": "788",
+          "arrivalTime": "2015-08-02T11:10+02:00",
+          "departureTime": "2015-08-01T21:55-04:00",
+          "origin": "JFK",
+          "destination": "OSL",
+          "originTerminal": "1",
+          "duration": 435,
+          "mileage": 3675,
+          "meal": "Food and Beverages for Purchase",
+          "secure": true
+         }
+        ],
+        "connectionDuration": 335
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 120,
+        "flight": {
+         "carrier": "DY",
+         "number": "1502"
+        },
+        "id": "GAkTgtMgN8jkzDDv",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LOo2+LjmGV4DQbae",
+          "aircraft": "73H",
+          "arrivalTime": "2015-08-02T18:45+02:00",
+          "departureTime": "2015-08-02T16:45+02:00",
+          "origin": "OSL",
+          "destination": "PRG",
+          "destinationTerminal": "2",
+          "duration": 120,
+          "mileage": 707,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A49k4zfSI7kxYIAZ4AyANjVpY9s7/rRTPa7Jjh3YvDpY",
+        "carrier": "DY",
+        "origin": "NYC",
+        "destination": "OSL",
+        "basisCode": "USRNO"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AtFQrqd7Acjve2eUwV37jyf+3HAY85ENdpSqCaVjjfA6",
+        "carrier": "DY",
+        "origin": "OSL",
+        "destination": "PRG",
+        "basisCode": "PJIPPI"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AtFQrqd7Acjve2eUwV37jyf+3HAY85ENdpSqCaVjjfA6",
+        "segmentId": "GAkTgtMgN8jkzDDv",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "UPTO44LB 20KG BAGGAGE",
+            "count": 2,
+            "description": [
+             "Up to 44 lb/20 kg"
+            ],
+            "subcode": "0C2"
+           }
+          ],
+          "pieces": 2
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A49k4zfSI7kxYIAZ4AyANjVpY9s7/rRTPa7Jjh3YvDpY",
+        "segmentId": "GDkMR-wO2jFce5+c",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "UPTO44LB 20KG BAGGAGE",
+            "count": 2,
+            "description": [
+             "Up to 44 lb/20 kg"
+            ],
+            "subcode": "0C2"
+           }
+          ],
+          "pieces": 2
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD598.00",
+      "saleFareTotal": "USD598.00",
+      "saleTaxTotal": "USD65.70",
+      "saleTotal": "USD663.70",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "ZN",
+        "country": "NO",
+        "salePrice": "USD6.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD31.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD17.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       }
+      ],
+      "fareCalculation": "NYC DY X/OSL Q57.35 485.00USRNO DY PRG Q12.74 43.20PJIPPI NUC 598.29 END ROE 1.00 FARE USD 598.00 XT 17.70US 5.60AY 6.70ZN 31.20YQ 4.50XF JFK4.50",
+      "latestTicketingTime": "2015-08-01T21:54-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD775.80",
+    "id": "QxtjlWJwmwDVJtJyFjCQiR002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 740,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 515,
+        "flight": {
+         "carrier": "LO",
+         "number": "7"
+        },
+        "id": "GNNDDtBJ3p7e0W6n",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LCVGD5upOgaAYUq+",
+          "aircraft": "788",
+          "arrivalTime": "2015-08-02T08:50+02:00",
+          "departureTime": "2015-08-01T18:15-04:00",
+          "origin": "JFK",
+          "destination": "WAW",
+          "originTerminal": "1",
+          "duration": 515,
+          "mileage": 4253,
+          "meal": "Breakfast",
+          "secure": true
+         }
+        ],
+        "connectionDuration": 150
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "LO",
+         "number": "527"
+        },
+        "id": "G8JjjkanB9sP8LMT",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LaSPF5tVRyLnJSeV",
+          "aircraft": "E70",
+          "arrivalTime": "2015-08-02T12:35+02:00",
+          "departureTime": "2015-08-02T11:20+02:00",
+          "origin": "WAW",
+          "destination": "PRG",
+          "destinationTerminal": "2",
+          "duration": 75,
+          "mileage": 323,
+          "meal": "Food for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ABQKfIgCEmUtKDP545rc82OEyU7kT7R3iyZWWXlq35XY",
+        "carrier": "LO",
+        "origin": "NYC",
+        "destination": "PRG",
+        "basisCode": "T1HTAN0"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ABQKfIgCEmUtKDP545rc82OEyU7kT7R3iyZWWXlq35XY",
+        "segmentId": "G8JjjkanB9sP8LMT",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "pieces": 1
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ABQKfIgCEmUtKDP545rc82OEyU7kT7R3iyZWWXlq35XY",
+        "segmentId": "GNNDDtBJ3p7e0W6n",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "pieces": 1
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD566.00",
+      "saleFareTotal": "USD566.00",
+      "saleTaxTotal": "USD209.80",
+      "saleTotal": "USD775.80",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "XW",
+        "country": "PL",
+        "salePrice": "USD15.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ND",
+        "chargeType": "GOVERNMENT",
+        "code": "ND",
+        "country": "PL",
+        "salePrice": "USD0.10"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD166.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD17.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       }
+      ],
+      "fareCalculation": "NYC LO X/WAW LO PRG 566.00T1HTAN0 NUC 566.00 END ROE 1.00 FARE USD 566.00 XT 17.70US 5.60AY 0.10ND 15.90XW 166.00YQ 4.50XF JFK4.50",
+      "latestTicketingTime": "2015-04-19T17:05-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   }
+  ]
+ }
+}

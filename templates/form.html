@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+          rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3 class="text-muted">Insert Search Data</h3>
+      </div>
+      <hr/>
+      <div>
+      <form action="request" method="post" enctype="multipart/form-data">
+        <div class="field">
+            <label for="origin">Origin</label>
+            <textarea cols="10" rows="1" name="origin">JFK</textarea>
+        </div><br />
+        <div class="field">
+            <label for="destination">Destination</label>
+            <textarea cols="10" rows="1" name="destination">PRG</textarea>
+        </div><br />
+        <div class="field">
+            <label for="departureDate">Departure Date</label>
+            <textarea cols="10" rows="1" name="departureDate">2015-08-01</textarea>
+        </div><br />
+        <div class="field">
+            <label for="arrivalDate">Arrival Date</label>
+            <textarea cols="10" rows="1" name="arrivalDate">2015-08-10</textarea>
+        </div><br />
+        <input type="submit" value="Send">
+      </form>
+      </div>
+    </div>
+  </body>
+</html>
